@@ -1,0 +1,57 @@
+package myMethod;
+
+public class MyFirstMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 31;
+		String name = "Zafirah Nuraina";
+		
+		System.out.println("I have a message for you");
+		showMessage();
+		System.out.println("That's all folk!");
+		showMessage2();
+		System.out.println("That's all buddie!");
+		showMessage3(i);
+		showMessage4(i, name);
+		showMessage5(21, " Student ");
+		
+		
+		
+	} //main method
+
+	//public static - modifier
+	// void - result type
+	//showMessage -method name
+	//() - parameter
+	public static void showMessage() {
+		System.out.println("Hello World");
+	} //showMessafe method
+		
+	public static void showMessage2() {
+		System.out.println("Hello Malaysia");
+	} //showMessage2 method
+	
+	public static void showMessage3(int j) {
+		System.out.println("The number is " + j);
+	}
+    public static void showMessage4(int k, String n) {
+			int m = 14;
+			String s = "Kemaman";
+			String b = "21 year old";
+			
+			System.out.println("The number is " + k);
+			System.out.println("My name is " + n + " form " + s);
+			System.out.println("My age is " + b );
+			int sum = k+ m;
+			System.out.println("Sum is " + sum);
+	}
+	public static void showMessage5(int age,  String p) {
+		     System.out.println("My name is " + age + p);
+		
+		
+		
+	}
+}
+
